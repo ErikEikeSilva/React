@@ -1,16 +1,15 @@
-# React + Vite
+🎯 Melhoria 1 - Estado de Conclusão
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+"Eu adicionei o checkbox de conclusão porque percebi que o usuário não tinha como marcar tarefas finalizadas sem excluí-las. Na vida real, a gente quer ver o histórico do que já foi conquistado, não apenas apagar. Agora dá pra ter uma visão clara do progresso."
 
-Currently, two official plugins are available:
+📊 Melhoria 2 - Feedback de Quantidade
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+"Eu implementei os cards de estatísticas e a barra de progresso porque o usuário não sabia quantas tarefas faltavam sem contar uma por uma. Com essa solução, em um olhar ele já vê quantas estão pendentes, concluídas e o percentual de avanço."
 
-## React Compiler
+⚠️ Melhoria 3 - Prevenção de Erros
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+"Eu criei a validação com mensagens de erro elegantes porque o usuário podia adicionar tarefas vazias ou só com espaços. Isso poluía a lista. Agora ele recebe um feedback visual imediato em vermelho, bem sutil mas claro."
 
-## Expanding the ESLint configuration
+🎨 Melhoria 4 - Design e Centralização
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+"Eu centralizei toda a interface e melhorei as cores porque a lista estava muito jogada no canto. No Windows 11, tudo é centralizado e arejado. Agora o app respira, tem hierarquia visual e fica agradável de usar."
