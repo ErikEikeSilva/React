@@ -1,16 +1,142 @@
-# React + Vite
+markdown
+# Debora & Erik Advocacia - Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-19.2.0-61dafb.svg)
+![Vite](https://img.shields.io/badge/Vite-7.3.1-646cff.svg)
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Landing page institucional desenvolvida para o escritório de advocacia **Oliveira & Mendes Advocacia**. O projeto apresenta uma interface limpa, profissional e responsiva, destacando os valores do escritório, áreas de atuação e informações institucionais.
 
-## React Compiler
+### 🎯 Objetivo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Criar uma presença digital profissional que transmita credibilidade, ética e excelência, facilitando o primeiro contato com potenciais clientes e apresentando de forma clara os serviços jurídicos oferecidos.
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React 19** - Biblioteca para construção da interface
+- **Vite 7** - Ferramenta de build e desenvolvimento
+- **CSS3** - Estilização customizada (sem frameworks)
+- **ESLint** - Padronização e qualidade de código
+
+## 📁 Estrutura do Projeto
+src/
+├── components/ # Componentes reutilizáveis
+│ ├── Button.jsx # Botão customizado
+│ ├── CardArea.jsx # Card para áreas de atuação
+│ └── Header.jsx # Cabeçalho com navegação
+├── sections/ # Seções da página
+│ ├── Areas.jsx # Grid de áreas de atuação
+│ ├── Hero.jsx # Seção principal (hero)
+│ └── Sobre.jsx # Sobre o escritório
+├── styles/
+│ └── global.css # Estilos globais
+├── App.jsx # Componente principal
+└── main.jsx # Ponto de entrada
+
+text
+
+## ✨ Funcionalidades
+
+- **Design Responsivo** - Adaptação para diferentes tamanhos de tela
+- **Navegação Intuitiva** - Menu com âncoras para as seções
+- **Componentes Reutilizáveis** - Botões e cards modulares
+- **Paleta de Cores Profissional** - Tons de azul marinho e dourado
+- **Animações Suaves** - Hover effects e transições
+
+## 🎨 Layout e Design
+
+### Cores Principais
+- **Primária:** `#0f172a` (Azul marinho)
+- **Destaque:** `#bfa046` (Dourado)
+- **Texto:** `#1e293b` (Cinza escuro)
+- **Fundo:** `#f8f9fa` (Off-white)
+
+### Tipografia
+- **Fonte Principal:** Georgia, serif
+- **Hierarquia visual clara** com tamanhos diferenciados
+
+## 🛠️ Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
+
+### Passos para Instalação
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/oliveira-mendes-advocacia.git
+   cd oliveira-mendes-advocacia
+Instale as dependências
+
+bash
+npm install
+# ou
+yarn install
+Execute o projeto
+
+bash
+npm run dev
+# ou
+yarn dev
+Acesse no navegador
+
+text
+http://localhost:5173
+📦 Scripts Disponíveis
+npm run dev - Inicia o servidor de desenvolvimento
+
+npm run build - Gera a versão de produção
+
+npm run preview - Visualiza a versão de produção localmente
+
+npm run lint - Executa a verificação de código com ESLint
+
+🌟 Seções da Página
+Header
+Logotipo do escritório
+
+Menu de navegação com links âncora
+
+Hero
+Frase de impacto sobre a atuação do escritório
+
+Call-to-action para agendamento de consulta
+
+Áreas de Atuação
+Direito Civil
+
+Direito Trabalhista
+
+Direito Empresarial
+
+Cards com descrições detalhadas
+
+Sobre
+História e valores do escritório
+
+Destaques numéricos (experiência e atendimento)
+
+📱 Responsividade
+O projeto é totalmente responsivo, adaptando-se para:
+
+Desktop (1200px+)
+
+Tablet (768px - 1199px)
+
+Mobile (até 767px)
+
+🤝 Contribuição
+Contribuições são bem-vindas! Siga os passos:
+
+Fork o projeto
+
+Crie uma branch (git checkout -b feature/NovaFuncionalidade)
+
+Commit suas mudanças (git commit -m 'Adiciona nova funcionalidade')
+
+Push para a branch (git push origin feature/NovaFuncionalidade)
+
+Abra um Pull Request
