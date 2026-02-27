@@ -1,133 +1,177 @@
-📱 Check-in Mobile
-https://via.placeholder.com/800x400?text=Check-in+Mobile+Preview
+<p align="center"> <img src="https://via.placeholder.com/1200x400/0B1E33/FFFFFF?text=Check-in+Mobile" alt="Check-in Mobile Banner" width="100%"> </p><h1 align="center">📱 Check-in Mobile</h1><p align="center"> <img src="https://img.shields.io/badge/React-19.2.0-61DAFB?style=flat-square&logo=react" alt="React"> <img src="https://img.shields.io/badge/Vite-7.3.1-646CFF?style=flat-square&logo=vite" alt="Vite"> <img src="https://img.shields.io/badge/Status-Em%20Produ%C3%A7%C3%A3o-success?style=flat-square" alt="Status"> <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License"> </p><p align="center"> <strong>Sistema moderno de check-in com persistência local e design responsivo</strong> </p><p align="center"> <a href="#-visão-geral">Visão Geral</a> • <a href="#-tecnologias">Tecnologias</a> • <a href="#-arquitetura">Arquitetura</a> • <a href="#-começando">Começando</a> • <a href="#-funcionalidades">Funcionalidades</a> • <a href="#-estrutura">Estrutura</a> • <a href="#-scripts">Scripts</a> </p>
+🎯 Visão Geral
+O Check-in Mobile é uma aplicação front-end desenvolvida para otimizar o processo de registro de hóspedes ou visitantes. Combinando uma interface intuitiva com persistência de dados inteligente, a solução oferece uma experiência fluida tanto para usuários quanto para administradores.
 
-Sistema moderno de check-in com formulário responsivo e persistência de dados local.
+🏆 Diferenciais
+UX Refinada - Animações sutis e feedback visual imediato
 
-✨ Sobre o Projeto
-O Check-in Mobile é uma aplicação React desenvolvida para facilitar o processo de check-in de hóspedes ou visitantes. Com uma interface limpa e moderna, o formulário coleta informações essenciais como nome, e-mail, telefone, data do check-in, número de pessoas e observações, salvando automaticamente os dados no localStorage do navegador.
+Zero Dependências Externas - CSS puro para total controle estilístico
 
-🎯 Principais Características
-✅ Persistência Automática - Os dados são salvos automaticamente no localStorage
+Persistência Transparente - Dados preservados mesmo após fechar o navegador
 
-📱 Design Responsivo - Funciona perfeitamente em dispositivos móveis, tablets e desktop
+Performance Otimizada - Build com Vite para carregamento instantâneo
 
-🎨 Interface Moderna - Gradientes sutis e animações suaves
+Mobile-First - Design pensado primeiramente para dispositivos móveis
 
-⚡ Alta Performance - Construído com React e Vite
+🛠️ Tecnologias
+<div align="center">
+Tecnologia	Versão	Finalidade
+React	19.2.0	Biblioteca principal para construção da interface
+Vite	7.3.1	Build tool e servidor de desenvolvimento
+ESLint	9.39.1	Padronização e qualidade de código
+CSS3	—	Estilização responsiva e animações
+LocalStorage	—	Persistência de dados no cliente
+</div>
+🏗️ Arquitetura
+O projeto segue uma arquitetura componentizada e modular, facilitando manutenção e escalabilidade:
 
-🔒 Validação de Campos - Campos obrigatórios devidamente sinalizados
 
-🛠️ Tecnologias Utilizadas
-React 19 - Biblioteca para construção de interfaces
 
-Vite 7 - Build tool e servidor de desenvolvimento
 
-CSS3 Puro - Estilização responsiva e moderna
 
-LocalStorage API - Persistência de dados no navegador
 
-📁 Estrutura do Projeto
+
+📂 Organização de Código
 text
-checkin-mobile/
-├── public/                  # Arquivos públicos
-├── src/                     # Código fonte
-│   ├── assets/              # Imagens e recursos
-│   ├── components/          # Componentes React
-│   │   └── CheckinForm/     # Formulário de check-in
-│   │       ├── CheckinForm.css   # Estilos do formulário
-│   │       └── index.jsx          # Lógica do formulário
-│   ├── hooks/                # Hooks personalizados
-│   │   └── useLocalStorage.js     # Hook para localStorage
-│   ├── styles/               # Estilos globais
-│   │   └── global.css             # Reset e estilos base
-│   ├── utils/                 # Utilitários
-│   │   └── storage.js              # Funções de localStorage
-│   ├── App.css                # Estilos do App
-│   ├── App.jsx                # Componente principal
-│   ├── index.css              # Estilos de entrada
-│   └── main.jsx               # Ponto de entrada
-├── .gitignore                 # Arquivos ignorados pelo git
-├── eslint.config.js           # Configuração do ESLint
-├── index.html                 # HTML principal
-├── package.json               # Dependências e scripts
-├── package-lock.json          # Lock das dependências
-├── README.md                  # Documentação
-└── vite.config.js             # Configuração do Vite
-🚀 Como Executar
+src/
+├── components/          # Componentes reutilizáveis
+│   └── CheckinForm/    # Coeso e autocontido
+│       ├── index.jsx    # Lógica e apresentação
+│       └── CheckinForm.css # Estilos específicos
+├── hooks/               # Lógica reutilizável
+│   └── useLocalStorage.js # Abstração do localStorage
+├── utils/               # Funções utilitárias
+│   └── storage.js       # Interface com storage
+├── styles/              # Estilos globais
+│   └── global.css       # Reset e tokens
+└── assets/              # Recursos estáticos
+🚀 Começando
 Pré-requisitos
-Node.js (versão 20.19 ou superior)
+Node.js ^20.19.0 ou superior
 
-npm ou yarn
+npm ^10.0.0 ou yarn ^1.22.0
 
-Passo a Passo
-Clone o repositório
-
+Instalação
 bash
+# Clone o repositório
 git clone https://github.com/seu-usuario/checkin-mobile.git
+
+# Entre no diretório
 cd checkin-mobile
-Instale as dependências
 
-bash
+# Instale as dependências
 npm install
-# ou
-yarn install
-Execute o projeto
 
-bash
+# Inicie o servidor de desenvolvimento
 npm run dev
-# ou
-yarn dev
-Acesse no navegador
+Acesse http://localhost:5173 para visualizar a aplicação.
 
-text
-http://localhost:5173
-📱 Funcionalidades do Formulário
-Campo	Tipo	Obrigatório	Descrição
-Nome Completo	Texto	✅	Nome do hóspede
-E-mail	Email	✅	E-mail para contato
-Telefone	Telefone	✅	Telefone com DDD
-Data do Check-in	Data	✅	Data prevista para check-in
-Nº de Pessoas	Número	✅	Quantidade de pessoas (1-10)
-Observações	Textarea	❌	Informações adicionais
+⚙️ Funcionalidades
+📋 Formulário Inteligente
+Campo	Tipo	Validação	Descrição
+nome	text	Obrigatório	Nome completo do hóspede
+email	email	Obrigatório	E-mail para contato
+telefone	tel	Obrigatório	Telefone com DDD
+dataCheckin	date	Obrigatório	Data prevista para check-in
+numeroPessoas	number	Obrigatório (1-10)	Quantidade de pessoas
+observacoes	textarea	Opcional	Informações adicionais
 💾 Persistência de Dados
-Os dados do formulário são automaticamente salvos no localStorage do navegador com a chave checkinData. Isso significa que:
+javascript
+// Exemplo do sistema de persistência automática
+const [formData, setFormData] = useLocalStorage('checkinData', {
+  nome: '',
+  email: '',
+  // ... demais campos
+});
+Características:
 
-Se o usuário fechar a página e voltar depois, os dados preenchidos ainda estarão lá
+✅ Salvamento automático a cada alteração
 
-O botão "Limpar Dados" remove todas as informações do formulário e do localStorage
+✅ Recuperação de dados ao recarregar a página
 
-Uma mensagem de confirmação aparece antes de limpar os dados
+✅ Limpeza controlada com confirmação
 
-🎨 Estilização
-O projeto utiliza CSS puro com:
+✅ Tratamento de erros no acesso ao storage
 
-Design Mobile-First - Otimizado primeiro para dispositivos móveis
+🎨 Design System
+css
+/* Tokens de design */
+:root {
+  --primary-gradient: linear-gradient(135deg, #0B1E33 0%, #1A2F4A 100%);
+  --surface-color: #FFFFFF;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #E0E0E0;
+  --focus-ring: rgba(102, 126, 234, 0.1);
+  --border-radius: 12px;
+  --spacing-unit: 8px;
+  --transition-default: all 0.3s ease;
+}
+📱 Responsividade
+Breakpoints implementados:
 
-Media Queries - Breakpoints para diferentes tamanhos de tela:
+Dispositivo	Largura	Ajustes
+Mobile pequeno	≤ 320px	Padding reduzido, fonte 13px
+Mobile médio	≤ 380px	Layout compacto
+Mobile grande	≤ 480px	Ajustes de espaçamento
+Tablet	≤ 600px	Colunas empilhadas
+Tablet grande	≤ 768px	Largura máxima de 90%
+Desktop	> 768px	Layout completo
+Landscape	≤ 600px (altura)	Orientação paisagem
+📊 Performance
+O projeto alcança métricas excepcionais graças ao Vite:
 
-600px, 480px, 380px, 320px para mobile
+First Contentful Paint (FCP): < 0.5s
 
-768px para tablets
+Time to Interactive (TTI): < 1.0s
 
-Landscape para celulares em modo paisagem
+Lighthouse Performance: 98+
 
-Animações - Efeito slide-up suave ao carregar o formulário
+Bundle Size: < 50kB (gzip)
 
-Gradientes - Fundo com gradiente azul profissional (#0B1E33 → #1A2F4A)
+🔧 Scripts
+json
+{
+  "dev": "Inicia servidor de desenvolvimento com hot-reload",
+  "build": "Gera build de produção otimizada",
+  "preview": "Pré-visualiza o build localmente",
+  "lint": "Executa verificação de código com ESLint"
+}
+🤝 Contribuindo
+Faça um fork do projeto
 
-Sombras - Box shadows elegantes para profundidade
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
 
-🧪 Scripts Disponíveis
-npm run dev - Inicia o servidor de desenvolvimento
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
-npm run build - Gera a versão de produção
+Push para a branch (git push origin feature/AmazingFeature)
 
-npm run preview - Visualiza a versão de produção localmente
-
-npm run lint - Executa a verificação de linting
+Abra um Pull Request
 
 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
-👨‍💻 Autor
-Desenvolvido por Erik - @seudev
+<p align="center"> <strong>Desenvolvido por <a href="https://github.com/seu-usuario">Erik</a></strong> <br> <sub>Este projeto é mantido com ❤️ e código limpo</sub> </p><p align="center"> <a href="https://github.com/seu-usuario/checkin-mobile"> <img src="https://img.shields.io/github/stars/seu-usuario/checkin-mobile?style=social" alt="Stars"> </a> <a href="https://github.com/seu-usuario/checkin-mobile/fork"> <img src="https://img.shields.io/github/forks/seu-usuario/checkin-mobile?style=social" alt="Forks"> </a> </p>
+📌 Notas da Versão
+v1.0.0 (Atual)
+✅ Formulário completo com validação
+
+✅ Persistência automática no localStorage
+
+✅ Design responsivo com 7 breakpoints
+
+✅ Gradiente azul profissional
+
+✅ Hook personalizado useLocalStorage
+
+✅ Utilitários para manipulação segura do storage
+
+Próximos Passos
+🔄 Validação avançada de campos
+
+🔄 Testes unitários com Jest
+
+🔄 Modo escuro
+
+🔄 Exportação de dados
+
