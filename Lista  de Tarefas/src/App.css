@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Toast Notification */
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 50px;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.3);
+  animation: slideIn 0.3s ease;
+  z-index: 1000;
+  font-weight: 500;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Progress Bar */
+.progresso-container {
+  margin-bottom: 30px;
+}
+
+.progresso-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.progresso-bar {
+  width: 100%;
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progresso-preenchido {
+  height: 100%;
+  background: linear-gradient(90deg, #4CAF50, #8BC34A);
+  transition: width 0.3s ease;
+}
+
+/* Form */
+.form-tarefa {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.form-tarefa input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-tarefa input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.btn-adicionar {
+  padding: 12px 24px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-adicionar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.empty-image {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.empty-state h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.empty-state p {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.dica {
+  font-size: 0.9em;
+  background: #f8f9fa;
+  padding: 8px 16px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* Lista de Tarefas */
+.lista-tarefas {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.lista-tarefas li {
+  display: flex;
+  align-items: center;
+  padding: 12px 16px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin-bottom: 8px;
+  animation: slideInList 0.3s ease;
+}
+
+@keyframes slideInList {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lista-tarefas li.completa span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.lista-tarefas li input[type="checkbox"] {
+  margin-right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.lista-tarefas li span {
+  flex: 1;
+  font-size: 16px;
+}
+
+.btn-remover {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 0.2s, transform 0.2s;
+  padding: 5px;
+}
+
+.btn-remover:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+/* Ações de Risco */
+.acoes-risco {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-limpar {
+  padding: 12px 24px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-limpar:hover {
+  background: #c82333;
+}
+
+.confirmacao {
+  background: #fff3f3;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #dc3545;
+}
+
+.confirmacao p {
+  color: #721c24;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.botoes-confirmacao {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-confirmar {
+  padding: 10px 20px;
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-confirmar:hover {
+  background: #c82333;
+}
+
+.btn-cancelar {
+  padding: 10px 20px;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-cancelar:hover {
+  background: #5a6268;
+}
