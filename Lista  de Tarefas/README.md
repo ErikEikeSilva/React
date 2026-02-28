@@ -181,5 +181,3 @@ Inspiração de Design
 https://img.shields.io/badge/build-passing-brightgreen
 https://img.shields.io/badge/coverage-85%2525-yellow
 https://img.shields.io/badge/maintenance-active-green
-
-<div align="center"> <sub>Feito com ❤️ por Lazar</sub> </div> ```
