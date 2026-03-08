@@ -1,0 +1,28 @@
+.animals {
+  padding: 80px 0;
+  background: #F9F9F9;
+}
+
+.animals-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.animals-more {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .animals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .animals-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

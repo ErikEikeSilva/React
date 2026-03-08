@@ -1,0 +1,45 @@
+/* src/index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4CAF50;
+  --primary-dark: #388E3C;
+  --secondary-color: #FF9800;
+  --text-dark: #2C3E50;
+  --text-light: #ECF0F1;
+  --background-light: #F9F9F9;
+  --card-bg: #FFFFFF;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  --shadow-hover: 0 15px 40px rgba(0, 0, 0, 0.1);
+  --border-radius-card: 20px;
+  --border-radius-btn: 50px;
+  --font-family: 'Poppins', sans-serif;
+  --transition: all 0.3s ease;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-dark);
+  background-color: var(--background-light);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
