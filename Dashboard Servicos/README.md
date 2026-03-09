@@ -1,300 +1,255 @@
-📊 Dashboard de Serviços
+<div align="center">
+  
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+  ![NPM](https://img.shields.io/badge/NPM-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+  ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
+</div>
 
+# 📋 Índice
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Funcionalidades](#-funcionalidades)
+- [Pré-requisitos](#-pré-requisitos)
+- [Instalação](#-instalação)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Componentes](#-componentes)
+- [Estilização](#-estilização)
+- [Como Usar](#-como-usar)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
+- [Contato](#-contato)
 
+## 🚀 Sobre o Projeto
 
+**Dashboard de Serviços** é uma aplicação web moderna desenvolvida em React, projetada para apresentar serviços de forma elegante e profissional. O projeto conta com design responsivo, modo escuro automático e interface intuitiva.
 
+### ✨ Destaques
+- 🎯 Design moderno e profissional
+- 📱 Totalmente responsivo
+- 🌓 Modo escuro automático
+- ⚡ Performance otimizada com Vite
+- ♿ Acessibilidade melhorada
+- 🎨 Páginas completas (Home, Serviços, Contato, Sobre)
 
+## 🛠 Tecnologias Utilizadas
 
+| Tecnologia | Versão | Descrição |
+|------------|--------|-----------|
+| React | 18.3+ | Biblioteca principal |
+| Vite | 7.3+ | Build tool e dev server |
+| React Router DOM | 6.8+ | Roteamento |
+| CSS3 | - | Estilização |
+| JavaScript ES6+ | - | Lógica da aplicação |
 
+## ⚙️ Funcionalidades
 
+### ✅ Implementadas
+- **Header Fixo** - Menu de navegação sticky
+- **Cards de Serviços** - Apresentação dos serviços
+- **Design Responsivo** - Adaptação para todos os dispositivos
+- **Modo Escuro** - Suporte automático baseado no sistema
+- **Animações** - Transições suaves
+- **Menu Mobile** - Hamburger menu para dispositivos móveis
+- **Páginas Completas** - Home, Serviços, Contato e Sobre
 
+### 🔄 Em Desenvolvimento
+- Integração com API
+- Formulário de contato funcional
+- Carrossel de serviços
+- Testes unitários
 
+## 📋 Pré-requisitos
 
-📋 Índice
+Antes de começar, você precisará ter instalado:
 
-🚀 Sobre o Projeto
+- **Node.js** (versão 16 ou superior)
+- **npm** (geralmente vem com Node.js) ou **yarn**
 
-🛠 Tecnologias Utilizadas
-
-⚙️ Funcionalidades
-
-📋 Pré-requisitos
-
-🔧 Instalação
-
-📁 Estrutura do Projeto
-
-🧩 Componentes
-
-🎨 Estilização
-
-💻 Como Usar
-
-🤝 Contribuição
-
-📄 Licença
-
-👨‍💻 Contato
-
-🚀 Sobre o Projeto
-
-O Dashboard de Serviços é uma aplicação web moderna desenvolvida em React, projetada para apresentar serviços de forma elegante e profissional.
-
-O projeto conta com:
-
-Interface moderna
-
-Design responsivo
-
-Dark Mode automático
-
-Navegação intuitiva
-
-✨ Destaques
-
-🎯 Design moderno e profissional
-
-📱 Totalmente responsivo
-
-🌓 Modo escuro automático
-
-⚡ Performance otimizada com Vite
-
-♿ Acessibilidade melhorada
-
-🎨 Páginas completas
-
-Home
-
-Serviços
-
-Contato
-
-Sobre
-
-🛠 Tecnologias Utilizadas
-Tecnologia	Versão	Descrição
-React	18.3+	Biblioteca principal
-Vite	7.3+	Build tool e dev server
-React Router DOM	6.8+	Sistema de rotas
-CSS3	-	Estilização
-JavaScript ES6+	-	Lógica da aplicação
-⚙️ Funcionalidades
-✅ Implementadas
-
-✔ Header Fixo (Sticky Navbar)
-✔ Cards de serviços
-✔ Layout responsivo
-✔ Modo escuro automático
-✔ Menu mobile (Hamburger Menu)
-✔ Animações suaves
-✔ Páginas completas
-
-Home
-
-Serviços
-
-Contato
-
-Sobre
-
-🔄 Em Desenvolvimento
-
-🔌 Integração com API
-
-📨 Formulário de contato funcional
-
-🎠 Carrossel de serviços
-
-🧪 Testes unitários
-
-📋 Pré-requisitos
-
-Antes de começar, você precisa ter instalado:
-
-Node.js (versão 16+)
-
-npm ou yarn
-
-Verifique as versões:
-
+```bash
+# Verificar versões instaladas
 node --version
 npm --version
 🔧 Instalação
-1️⃣ Clone o repositório
+Passo a Passo
+Clone o repositório
+
+bash
 git clone https://github.com/seu-usuario/dashboard-servicos.git
 cd dashboard-servicos
-2️⃣ Instale as dependências
+Instale as dependências
+
+bash
 npm install
-
-ou
-
+# ou
 yarn install
-3️⃣ Instale o React Router
+Instale o React Router DOM
+
+bash
 npm install react-router-dom
-4️⃣ Execute o projeto
+# ou
+yarn add react-router-dom
+Inicie o servidor de desenvolvimento
+
+bash
 npm run dev
-5️⃣ Acesse no navegador
+# ou
+yarn dev
+Acesse a aplicação
+
+text
 http://localhost:5173
 📁 Estrutura do Projeto
-dashboard-servicos
-│
-├── public
-│   └── vite.svg
-│
-├── src
-│   ├── assets
-│   │   └── react.svg
-│   │
-│   ├── components
-│   │   ├── CardServico.jsx
-│   │   ├── CardServico.css
-│   │   ├── Header.jsx
-│   │   └── Header.css
-│   │
-│   ├── sections
-│   │   ├── Home.jsx
-│   │   ├── Home.css
-│   │   ├── Servicos.jsx
-│   │   ├── Servicos.css
-│   │   ├── Contato.jsx
-│   │   ├── Contato.css
-│   │   ├── Sobre.jsx
-│   │   └── Sobre.css
-│   │
-│   ├── styles
-│   │   └── global.css
-│   │
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
-│
-├── index.html
-├── package.json
-├── README.md
-└── vite.config.js
+text
+📦 dashboard-servicos
+├── 📂 public
+│   └── 📄 vite.svg
+├── 📂 src
+│   ├── 📂 assets
+│   │   └── 📄 react.svg
+│   ├── 📂 components
+│   │   ├── 📄 CardServico.jsx
+│   │   ├── 📄 CardServico.css
+│   │   ├── 📄 Header.jsx
+│   │   └── 📄 Header.css
+│   ├── 📂 sections
+│   │   ├── 📄 Home.jsx
+│   │   ├── 📄 Home.css
+│   │   ├── 📄 Servicos.jsx
+│   │   ├── 📄 Servicos.css
+│   │   ├── 📄 Contato.jsx
+│   │   ├── 📄 Contato.css
+│   │   ├── 📄 Sobre.jsx
+│   │   └── 📄 Sobre.css
+│   ├── 📂 styles
+│   │   └── 📄 global.css
+│   ├── 📄 App.jsx
+│   ├── 📄 App.css
+│   ├── 📄 main.jsx
+│   └── 📄 index.css
+├── 📄 .gitignore
+├── 📄 eslint.config.js
+├── 📄 index.html
+├── 📄 package.json
+├── 📄 package-lock.json
+├── 📄 README.md
+└── 📄 vite.config.js
 🧩 Componentes
-Header
+Header (src/components/Header.jsx)
+Menu de navegação responsivo
 
-Arquivo:
+Logo com link para home
 
-src/components/Header.jsx
+Indicador de página ativa
 
-Funções:
+Menu mobile com toggle
 
-Menu de navegação
-
-Logo
-
-Link para home
-
-Menu mobile
-
-Indicação da página ativa
-
-CardServico
-
-Arquivo:
-
-src/components/CardServico.jsx
-
-Recursos:
-
+CardServico (src/components/CardServico.jsx)
 Ícone personalizado
 
-Título
+Título e descrição
 
-Descrição
+Botão com efeito hover
 
-Botão interativo
+Suporte a dark mode
 
-Dark Mode
+Animações suaves
 
-Hover animation
-
-📍 Páginas
+📍 Páginas/Sections
 Página	Arquivo	Descrição
-Home	sections/Home.jsx	Página inicial
-Serviços	sections/Servicos.jsx	Lista de serviços
-Contato	sections/Contato.jsx	Formulário
+Home	sections/Home.jsx	Página inicial com apresentação
+Serviços	sections/Servicos.jsx	Lista de serviços em cards
+Contato	sections/Contato.jsx	Formulário e informações
 Sobre	sections/Sobre.jsx	Informações da empresa
 🎨 Estilização
-
-Arquivos CSS organizados em:
-
-components/
-sections/
-styles/
-Cores principais
+Arquivos CSS
+text
+src/
+├── components/
+│   ├── CardServico.css    # Estilo dos cards
+│   └── Header.css         # Estilo do cabeçalho
+├── sections/
+│   ├── Home.css           # Estilo da página inicial
+│   ├── Servicos.css       # Estilo da página de serviços
+│   ├── Contato.css        # Estilo da página de contato
+│   └── Sobre.css          # Estilo da página sobre
+├── styles/
+│   └── global.css         # Estilos globais
+├── App.css                 # Estilo principal
+└── index.css               # Estilo de reset
+Cores Principais
+css
 --gradient-primary: linear-gradient(135deg, #667eea, #764ba2);
---text-primary: #333;
---text-secondary: #666;
+--text-primary: #333333;
+--text-secondary: #666666;
 --bg-light: #f5f7fa;
 --bg-dark: #1a1a1a;
-📱 Responsividade
+Breakpoints Responsivos
 Dispositivo	Largura
 Mobile	< 480px
 Tablet	768px - 1024px
 Desktop	> 1024px
-💻 Scripts
-npm run dev
+💻 Como Usar
+Scripts Disponíveis
+bash
+# Desenvolvimento
+npm run dev         # Inicia servidor de desenvolvimento
 
-Servidor de desenvolvimento
+# Build
+npm run build       # Cria versão de produção
+npm run preview     # Visualiza build localmente
 
-npm run build
-
-Build de produção
-
-npm run preview
-
-Preview do build
-
-npm run lint
-
-Análise de código
-
-🔗 Rotas
-Rota	Página
-/	Home
-/servicos	Serviços
-/contato	Contato
-/sobre	Sobre
+# Linting
+npm run lint        # Verifica problemas no código
+Rotas da Aplicação
+Rota	Página	Componente
+/	Home	<Home />
+/servicos	Serviços	<Servicos />
+/contato	Contato	<Contato />
+/sobre	Sobre	<Sobre />
 🤝 Contribuição
+Fork o projeto
 
-1️⃣ Fork o projeto
+Crie uma branch (git checkout -b feature/MinhaFeature)
 
-2️⃣ Crie uma branch
+Commit suas mudanças (git commit -m 'Add: nova funcionalidade')
 
-git checkout -b feature/nova-feature
+Push para a branch (git push origin feature/MinhaFeature)
 
-3️⃣ Commit
+Abra um Pull Request
 
-git commit -m "Add: nova funcionalidade"
+Padrões de Commit
+✨ Add: - Novas funcionalidades
 
-4️⃣ Push
+🐛 Fix: - Correções de bugs
 
-git push origin feature/nova-feature
+📚 Docs: - Documentação
 
-5️⃣ Abra um Pull Request
+🎨 Style: - Estilização
+
+♻️ Refactor: - Refatoração
+
+✅ Test: - Testes
 
 📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Este projeto está sob a licença MIT.
+👨‍💻 Contato
+Erik - Desenvolvimento Full Stack
 
-👨‍💻 Desenvolvedor
+📧 Email: erik.silva@email.com
 
-Erik Silva
-Desenvolvedor Full Stack
+💼 LinkedIn: linkedin.com/in/erik-dev
 
-📧 erik.silva@email.com
-
-💼 linkedin.com/in/erik-dev
-🐱 github.com/erik-dev
+🐱 GitHub: github.com/erik-dev
 
 📊 Status do Projeto
+<div align="center">
+https://img.shields.io/badge/Progress-70%2525-yellowgreen?style=for-the-badge
+https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge
+https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge
 
-
-
-
+</div>
