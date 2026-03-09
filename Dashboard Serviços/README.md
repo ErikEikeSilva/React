@@ -253,12 +253,3 @@ https://img.shields.io/badge/Build-Passing-brightgreen?style=for-the-badge
 https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge
 
 </div>
-<div align="center"> <sub>Desenvolvido com ❤️ por <strong>Erik</strong></sub> <br> <sub>© 2024 Dashboard Serviços. Todos os direitos reservados.</sub> <br> <sub>🚀 Projeto em constante evolução</sub> </div>
-🔗 Links Úteis
-Documentação do React
-
-Documentação do Vite
-
-React Router DOM
-
-MDN Web Docs
