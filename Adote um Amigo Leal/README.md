@@ -1,127 +1,111 @@
-🐾 Adote um Amigo Leal - Landing Page
-https://via.placeholder.com/1200x630/4CAF50/FFFFFF?text=Adote+um+Amigo+Leal
+# 🐾 Adote um Amigo Leal - Landing Page
 
 <div align="center">
-https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react
-https://img.shields.io/badge/Vite-4.4.0-646CFF?style=for-the-badge&logo=vite
-https://img.shields.io/badge/CSS-Modules-000000?style=for-the-badge&logo=css3
-https://img.shields.io/badge/GitHub_Pages-Deployed-222222?style=for-the-badge&logo=github
-
-<h3>🐕 Uma landing page acolhedora para incentivar a adoção de animais</h3>
-🔗 Ver Demonstração •
-📝 Relatar Bug •
-✨ Solicitar Feature
-
+  
+  ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
+  ![Vite](https://img.shields.io/badge/Vite-4.4.0-646CFF?style=for-the-badge&logo=vite)
+  ![CSS Modules](https://img.shields.io/badge/CSS-Modules-000000?style=for-the-badge&logo=css3)
+  ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-222222?style=for-the-badge&logo=github)
+  
+  <h3>🐕 Uma landing page acolhedora para incentivar a adoção de animais</h3>
+  
+  <p>
+    <a href="#-sobre-o-projeto">🔗 Ver Demonstração</a> •
+    <a href="#-como-executar">📝 Relatar Bug</a> •
+    <a href="#-contribuição">✨ Solicitar Feature</a>
+  </p>
 </div>
-📋 Índice
-Sobre o Projeto
 
-Funcionalidades
+## 📋 Índice
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Funcionalidades](#-funcionalidades)
+- [Tecnologias](#-tecnologias)
+- [UX/UI Design](#-uxui-design)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
+- [Componentes](#-componentes)
+- [Como Executar](#-como-executar)
+- [Deploy no GitHub Pages](#-deploy-no-github-pages)
+- [Performance](#-performance)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
+- [Contato](#-contato)
 
-Tecnologias
+## 🎯 Sobre o Projeto
 
-UX/UI Design
+**Adote um Amigo Leal** é uma landing page desenvolvida para o tema "Adote um Amigo (Abrigo de Animais)", como parte de um desafio de front-end. O projeto tem como objetivo criar uma experiência emocionante e intuitiva para conectar pessoas a animais que precisam de um lar.
 
-Estrutura do Projeto
+### 🎨 O Desafio
 
-Componentes
+✅ **Mobile-First**: Design totalmente responsivo  
+✅ **Componentização**: Arquitetura baseada em Atomic Design (atoms, molecules, organisms)  
+✅ **Semântica HTML**: Tags semânticas para SEO e acessibilidade  
+✅ **Interatividade**: Menu mobile hambúrguer, animações e cards interativos  
+✅ **Deploy**: Publicado no GitHub Pages  
 
-Como Executar
+## ✨ Funcionalidades
 
-Deploy no GitHub Pages
+### 🏠 Hero Section
+- Banner acolhedor com chamada para adoção
+- Botões CTA "Quero Adotar" e "Sobre Nós"
+- Animação suave de entrada
 
-Performance
+### 🐕 Seção de Animais (AnimalsSection)
+- Cards com fotos e histórias dos animais
+- Informações como nome, idade, personalidade
+- Botão "Conhecer" para cada animal
+- Animações no hover dos cards
 
-Contribuição
+### ❤️ Seção de Benefícios (BenefitsSection)
+- Cards destacando vantagens da adoção
+- Ícones ilustrativos para cada benefício
+- Design clean e informativo
 
-Licença
+### 📱 Menu Mobile (Hambúrguer)
+- Menu responsivo com animação suave
+- Links âncora para seções da página
+- Overlay com blur effect
 
-Contato
+### 🦴 Header Fixo
+- Logo e navegação principal
+- Efeito de scroll com mudança de cor
+- Design consistente em todas as telas
 
-🎯 Sobre o Projeto
-Adote um Amigo Leal é uma landing page desenvolvida para o tema "Adote um Amigo (Abrigo de Animais)", como parte de um desafio de front-end. O projeto tem como objetivo criar uma experiência emocionante e intuitiva para conectar pessoas a animais que precisam de um lar.
+### 📞 Footer Completo
+- Links rápidos
+- Redes sociais
+- Informações de contato
+- Copyright
 
-🎨 O Desafio
-Este projeto atende todos os requisitos do desafio:
+## 🚀 Tecnologias
 
-✅ Mobile-First: Design totalmente responsivo
+### Core
+| Tecnologia | Versão | Finalidade |
+|------------|--------|------------|
+| React | 18.2.0 | Biblioteca principal |
+| Vite | 4.4.0 | Build tool e dev server |
+| CSS Modules | - | Estilização isolada por componente |
+| JavaScript | ES6+ | Lógica da aplicação |
 
-✅ Componentização: Arquitetura baseada em Atomic Design (atoms, molecules, organisms)
+### UX/UI
+| Tecnologia | Finalidade |
+|------------|------------|
+| Atomic Design | Estrutura de componentes organizada |
+| Mobile-First | Abordagem responsiva |
+| Semântica HTML | Acessibilidade e SEO |
 
-✅ Semântica HTML: Tags semânticas para SEO e acessibilidade
+### DevOps
+| Tecnologia | Finalidade |
+|------------|------------|
+| GitHub Pages | Hospedagem gratuita |
+| Git | Versionamento de código |
+| Vite | Otimização de build |
 
-✅ Interatividade: Menu mobile hambúrguer, animações e cards interativos
+## 🎨 UX/UI Design
 
-✅ Deploy: Publicado no GitHub Pages
+### Princípios de Design Aplicados
 
-✨ Funcionalidades
-🏠 Hero Section
-Banner acolhedor com chamada para adoção
-
-Botões CTA "Quero Adotar" e "Sobre Nós"
-
-Animação suave de entrada
-
-🐕 Seção de Animais (AnimalsSection)
-Cards com fotos e histórias dos animais
-
-Informações como nome, idade, personalidade
-
-Botão "Conhecer" para cada animal
-
-Animações no hover dos cards
-
-❤️ Seção de Benefícios (BenefitsSection)
-Cards destacando vantagens da adoção
-
-Ícones ilustrativos para cada benefício
-
-Design clean e informativo
-
-📱 Menu Mobile (Hambúrguer)
-Menu responsivo com animação suave
-
-Links âncora para seções da página
-
-Overlay com blur effect
-
-🦴 Header Fixo
-Logo e navegação principal
-
-Efeito de scroll com mudança de cor
-
-Design consistente em todas as telas
-
-📞 Footer Completo
-Links rápidos
-
-Redes sociais
-
-Informações de contato
-
-Copyright
-
-🚀 Tecnologias
-Core
-Tecnologia	Versão	Finalidade
-React	18.2.0	Biblioteca principal
-Vite	4.4.0	Build tool e dev server
-CSS Modules	-	Estilização isolada por componente
-JavaScript	ES6+	Lógica da aplicação
-UX/UI
-Tecnologia	Finalidade
-Atomic Design	Estrutura de componentes organizada
-Mobile-First	Abordagem responsiva
-Semântica HTML	Acessibilidade e SEO
-DevOps
-Tecnologia	Finalidade
-GitHub Pages	Hospedagem gratuita
-Git	Versionamento de código
-Vite	Otimização de build
-🎨 UX/UI Design
-Princípios de Design Aplicados
-1. Hierarquia Visual
-css
+#### 1. Hierarquia Visual
+```css
 /* Exemplo de estilização consistente */
 .section-title {
   font-size: clamp(1.5rem, 5vw, 2.5rem);
@@ -169,12 +153,16 @@ css
   --transition-base: 0.3s ease;
 }
 Paleta de Cores
-css
 🎨 Primária: #4CAF50 (Verde) - Esperança, vida nova
+
 🎨 Secundária: #FF9800 (Laranja) - Alegria, energia positiva
+
 🎨 Destaque: #2196F3 (Azul) - Confiança, segurança
+
 🎨 Background: #F5F5F5 (Off-white) - Acolhimento
+
 🎨 Texto: #333333 (Dark) - Legibilidade
+
 Tipografia
 Títulos: Poppins - Amigável e moderna
 
@@ -199,69 +187,58 @@ adote-um-amigo-leal/
 │   │
 │   ├── components/
 │   │   ├── atoms/
-│   │   │   ├── Button.css
-│   │   │   ├── Button.jsx
-│   │   │   ├── Container.css
-│   │   │   ├── Container.jsx
-│   │   │   ├── SectionTitle.css
-│   │   │   └── SectionTitle.jsx
+│   │   │   ├── Button/
+│   │   │   │   ├── Button.jsx
+│   │   │   │   └── Button.module.css
+│   │   │   ├── Container/
+│   │   │   └── SectionTitle/
 │   │   │
 │   │   ├── molecules/
-│   │   │   ├── AnimalCard.css
-│   │   │   ├── AnimalCard.jsx
-│   │   │   ├── BenefitCard.css
-│   │   │   ├── BenefitCard.jsx
-│   │   │   ├── Header.css
-│   │   │   ├── Header.jsx
-│   │   │   ├── NavMenu.css
-│   │   │   └── NavMenu.jsx
+│   │   │   ├── AnimalCard/
+│   │   │   ├── BenefitCard/
+│   │   │   └── NavMenu/
 │   │   │
 │   │   └── organisms/
-│   │       ├── AnimalsSection.jsx
-│   │       ├── BenefitsSection.css
-│   │       ├── BenefitsSection.jsx
-│   │       ├── Footer.css
-│   │       ├── Footer.jsx
-│   │       ├── HeroSection.css
-│   │       └── HeroSection.jsx
+│   │       ├── Header/
+│   │       ├── HeroSection/
+│   │       ├── AnimalsSection/
+│   │       ├── BenefitsSection/
+│   │       └── Footer/
 │   │
-│   ├── App.css
 │   ├── App.jsx
-│   ├── index.css
-│   ├── index.js
-│   └── main.jsx
+│   ├── App.module.css
+│   ├── main.jsx
+│   └── index.css
 │
 ├── .gitignore
-├── eslint.config.js
 ├── index.html
-├── package-lock.json
 ├── package.json
-├── README.md
-└── vite.config.js
+├── vite.config.js
+└── README.md
 🧩 Componentes
 Átomos (Atoms)
 Componentes básicos e reutilizáveis:
 
 Componente	Descrição
-Button.jsx	Botão com variantes (primário, secundário, outline)
-Container.jsx	Wrapper com largura máxima e padding
-SectionTitle.jsx	Título padronizado para seções
+Button	Botão com variantes (primário, secundário, outline)
+Container	Wrapper com largura máxima e padding
+SectionTitle	Título padronizado para seções
 Moléculas (Molecules)
 Combinações de átomos para formar unidades funcionais:
 
 Componente	Descrição
-AnimalCard.jsx	Card com foto e informações do animal
-BenefitCard.jsx	Card com ícone e texto sobre benefícios
-Header.jsx	Cabeçalho com logo e navegação
-NavMenu.jsx	Menu de navegação responsivo
+AnimalCard	Card com foto e informações do animal
+BenefitCard	Card com ícone e texto sobre benefícios
+NavMenu	Menu de navegação responsivo
 Organismos (Organisms)
 Seções completas da página:
 
 Componente	Descrição
-HeroSection.jsx	Seção principal com chamada para ação
-AnimalsSection.jsx	Grade com cards de animais para adoção
-BenefitsSection.jsx	Benefícios de adotar um animal
-Footer.jsx	Rodapé com links e contato
+Header	Cabeçalho com logo e navegação
+HeroSection	Seção principal com chamada para ação
+AnimalsSection	Grade com cards de animais para adoção
+BenefitsSection	Benefícios de adotar um animal
+Footer	Rodapé com links e contato
 💻 Como Executar
 Pré-requisitos
 Node.js (v14 ou superior)
@@ -273,7 +250,7 @@ Git
 Passo a Passo
 bash
 # 1. Clone o repositório
-git clone https://github.com/seuusername/adote-um-amigo-leal.git
+git clone https://github.com/seu-username/adote-um-amigo-leal.git
 
 # 2. Entre no diretório
 cd adote-um-amigo-leal
@@ -297,9 +274,6 @@ npm run build
 
 # Visualizar build localmente
 npm run preview
-
-# Deploy no GitHub Pages
-npm run deploy
 🚀 Deploy no GitHub Pages
 Configuração para Vite
 bash
@@ -314,7 +288,7 @@ export default defineConfig({
 
 # 3. No package.json, adicione:
 {
-  "homepage": "https://seuusername.github.io/adote-um-amigo-leal",
+  "homepage": "https://seu-username.github.io/adote-um-amigo-leal",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -333,13 +307,9 @@ Escolha a branch gh-pages como source
 📊 Performance
 Otimizações Implementadas
 ✅ Lazy Loading em imagens dos cards
-
 ✅ Code Splitting automático com Vite
-
 ✅ CSS Modules para estilos isolados
-
 ✅ Imagens otimizadas para web
-
 ✅ Fontes com fallback para performance
 
 Métricas Esperadas
@@ -379,17 +349,3 @@ Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
 📬 Contato
 Seu Nome - @seu_twitter - email@exemplo.com
-
-Link do Projeto: https://github.com/seuusername/adote-um-amigo-leal
-
-<div align="center">
-⭐ Ajude um animal a encontrar um lar - Compartilhe este projeto!
-https://img.shields.io/github/stars/seuusername/adote-um-amigo-leal?style=social
-https://img.shields.io/github/forks/seuusername/adote-um-amigo-leal?style=social
-
-<br/>
-Desenvolvido com 🐾 para o desafio de front-end
-
-⬆ Voltar ao topo
-
-</div>
