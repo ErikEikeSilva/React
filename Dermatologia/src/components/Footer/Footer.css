@@ -1,0 +1,131 @@
+/* components/Footer.css */
+.footer {
+    background: #1a2634;
+    color: #fff;
+    padding: 60px 0 20px;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .footer-section h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #00b4d8;
+  }
+  
+  .footer-section p {
+    color: #b0b0b0;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #b0b0b0;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #00b4d8;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s;
+  }
+  
+  .social-link:hover {
+    background: #00b4d8;
+    transform: translateY(-3px);
+  }
+  
+  .hours li {
+    color: #b0b0b0;
+    margin-bottom: 8px;
+  }
+  
+  .emergency {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(0, 180, 216, 0.1);
+    border-radius: 8px;
+    color: #00b4d8;
+    font-weight: 500;
+  }
+  
+  .emergency span {
+    margin-right: 5px;
+  }
+  
+  .footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    color: #b0b0b0;
+  }
+  
+  .footer-bottom p {
+    margin-bottom: 10px;
+  }
+  
+  .credits {
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+  
+  /* Responsive */
+  @media (max-width: 992px) {
+    .footer-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+  
+    .social-links {
+      justify-content: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+    }
+  }
