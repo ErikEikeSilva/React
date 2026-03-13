@@ -401,4 +401,4 @@ Imagens: Unsplash
 Inspiração: Melhores práticas de UI/UX para clínicas médicas
 
 Desenvolvido com 💙 pela equipe Dermalux
-© 2024 - Todos os direitos reservados
+© 2026 - Todos os direitos reservados
