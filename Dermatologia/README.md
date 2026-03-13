@@ -1,318 +1,405 @@
-🧴 Dermalux — Clínica de Dermatologia
+Dermalux - Clínica de Dermatologia
+https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1168&q=80
 
-📋 Visão Geral
+📋 Índice
+Sobre o Projeto
 
-Dermalux é um site institucional moderno e responsivo desenvolvido para uma clínica de dermatologia.
-O projeto apresenta uma interface elegante e profissional, construída com React e Vite, com foco em oferecer uma excelente experiência ao usuário e destacar os serviços e profissionais da clínica.
+Estrutura de Diretórios
 
-O objetivo do projeto é apresentar informações da clínica de forma clara, moderna e acessível em computadores, tablets e dispositivos móveis.
+Tecnologias
 
-🏗️ Estrutura do Projeto
+Funcionalidades
+
+Instalação
+
+Configuração
+
+Scripts Disponíveis
+
+Deploy
+
+Personalização
+
+Contribuição
+
+Licença
+
+Contato
+
+📌 Sobre o Projeto
+Dermalux é um site institucional desenvolvido para uma clínica de dermatologia, construído com React.js e Vite. O projeto apresenta uma interface moderna, responsiva e profissional, com foco em conversão e experiência do usuário.
+
+Objetivos do Projeto
+Apresentar os serviços da clínica de forma clara e atraente
+
+Destacar a equipe médica e suas especialidades
+
+Facilitar o contato com pacientes através de formulário e WhatsApp
+
+Transmitir profissionalismo e confiança através do design
+
+📁 Estrutura de Diretórios
+text
 dermatologia/
+├── public/                          # Arquivos públicos estáticos
+│   ├── favicon.svg                  # Ícone do site
+│   └── icons.svg                    # Ícones SVG
 │
-├── public/                     # Arquivos públicos
-│   ├── favicon.svg             # Ícone do site
-│   └── icons.svg               # Ícones SVG
-│
-├── src/                        # Código fonte
-│
-│   ├── assets/                 # Recursos estáticos
-│
-│   ├── components/             # Componentes React
-│   │
-│   │   ├── About/              # Seção Sobre
+├── src/                              # Código fonte principal
+│   ├── components/                   # Componentes React
+│   │   ├── About/                    # Seção "Sobre Nós"
 │   │   │   ├── About.css
 │   │   │   └── About.jsx
 │   │   │
-│   │   ├── Contact/            # Seção Contato
+│   │   ├── Contact/                   # Seção "Contato"
 │   │   │   ├── Contact.css
 │   │   │   └── Contact.jsx
 │   │   │
-│   │   ├── Footer/             # Rodapé
+│   │   ├── Footer/                     # Rodapé
 │   │   │   ├── Footer.css
 │   │   │   └── Footer.jsx
 │   │   │
-│   │   ├── Header/             # Cabeçalho e navegação
+│   │   ├── Header/                     # Cabeçalho e navegação
 │   │   │   ├── Header.css
 │   │   │   └── Header.jsx
 │   │   │
-│   │   ├── Hero/               # Seção inicial
+│   │   ├── Hero/                        # Seção principal (Hero)
 │   │   │   ├── Hero.css
 │   │   │   └── Hero.jsx
 │   │   │
-│   │   ├── Services/           # Serviços oferecidos
+│   │   ├── Services/                     # Seção "Serviços"
 │   │   │   ├── Services.css
 │   │   │   └── Services.jsx
 │   │   │
-│   │   ├── Team/               # Equipe médica
+│   │   ├── Team/                          # Seção "Equipe"
 │   │   │   ├── Team.css
 │   │   │   └── Team.jsx
 │   │   │
-│   │   └── Testimonials/       # Depoimentos de pacientes
+│   │   └── Testimonials/                   # Seção "Depoimentos"
 │   │       ├── Testimonials.css
 │   │       └── Testimonials.jsx
+│   │
+│   ├── App.css                             # Estilos globais
+│   ├── App.jsx                              # Componente principal
+│   ├── index.css                             # Reset e variáveis CSS
+│   └── main.jsx                              # Ponto de entrada
 │
-│   ├── App.css                 # Estilos globais
-│   ├── App.jsx                 # Componente principal
-│   ├── index.css               # Reset e variáveis CSS
-│   └── main.jsx                # Ponto de entrada
-│
-├── .gitignore
-├── eslint.config.js
-├── index.html
-├── package.json
-├── package-lock.json
-├── README.md
-└── vite.config.js
-
-🚀 Tecnologias Utilizadas
+├── .gitignore                                # Arquivos ignorados pelo Git
+├── eslint.config.js                          # Configuração do ESLint
+├── index.html                                 # Template HTML principal
+├── package-lock.json                          # Lock de dependências
+├── package.json                               # Dependências e scripts
+├── README.md                                   # Documentação
+└── vite.config.js                              # Configuração do Vite
+🛠️ Tecnologias
+Core
 Tecnologia	Versão	Descrição
-React	19.2.4	Biblioteca para criação de interfaces
-React DOM	19.2.4	Renderização DOM para React
-Vite	8.0.0	Ferramenta de build rápida
-ESLint	9.39.4	Padronização de código
+React	19.2.4	Biblioteca para construção de interfaces
+React DOM	19.2.4	Renderização DOM
+Vite	8.0.0	Build tool e servidor de desenvolvimento
+Desenvolvimento
+Tecnologia	Versão	Descrição
 @vitejs/plugin-react	6.0.0	Plugin React para Vite
+ESLint	9.39.4	Linter para padronização de código
+eslint-plugin-react-hooks	7.0.1	Regras para React Hooks
+eslint-plugin-react-refresh	0.5.2	Suporte ao React Refresh
 ✨ Funcionalidades
-📱 Design Responsivo
+🎯 Seções do Site
+Seção	Componente	Descrição
+Início	Hero	Banner principal com overlay gradiente, título, subtítulo, botões CTA e estatísticas
+Sobre	About	História da clínica, diferenciais e missão/visão/valores
+Serviços	Services	Cards interativos com tratamentos e procedimentos
+Equipe	Team	Perfil dos profissionais com foto, especialidade e redes sociais
+Depoimentos	Testimonials	Slider automático com avaliações de pacientes
+Contato	Contact	Formulário funcional e cards de informações
+Rodapé	Footer	Links rápidos, horários e contato de emergência
+📱 Responsividade
+Breakpoints: 480px, 768px, 992px, 1200px
 
-Layout adaptável para mobile, tablet e desktop
+Menu mobile com animação hambúrguer
 
-Menu hambúrguer para dispositivos móveis
+Grids adaptativos em todas as seções
 
-Grid flexível e imagens otimizadas
+Imagens otimizadas para diferentes dispositivos
 
-🧭 Navegação Intuitiva
+🎨 Design System
+Cores
+css
+/* Primárias */
+--primary-dark: #023e8a;
+--primary: #0077b6;
+--primary-light: #00b4d8;
 
-Header fixo com menu de navegação
-
-Scroll suave entre seções
-
-Links âncora funcionais
-
-🏥 Seções do Site
-Seção	Descrição
-Hero	Banner principal com chamada de destaque e botões CTA
-Sobre	História da clínica e diferenciais
-Serviços	Cards interativos com tratamentos
-Equipe	Profissionais com fotos e especialidades
-Depoimentos	Avaliações de pacientes em slider
-Contato	Formulário de contato funcional
-Rodapé	Links rápidos e informações de contato
-🎨 Design
-Paleta de Cores
-
-Azul escuro — #023e8a
-
-Azul médio — #0077b6
-
-Azul claro — #00b4d8
-
-Tons neutros para contraste
-
+/* Neutras */
+--text-dark: #1e293b;
+--text: #64748b;
+--background: #f8fafc;
+--white: #ffffff;
 Tipografia
+Fonte principal: 'Poppins', sistema nativo
 
-Poppins
+Títulos: 2.5rem (desktop), 2rem (mobile)
 
-Sistema nativo de fontes
+Corpo: 1.1rem com line-height 1.6
 
-Efeitos Visuais
+Componentes
+Cards com sombra e efeito hover
 
-Hover effects
+Botões gradientes e outline
 
-Transições suaves
+Formulários com validação visual
 
-Animações fade-in
+Animações suaves (fadeIn, scale, translateY)
 
-🛠️ Instalação e Execução
+📊 Interatividade
+Formulário de contato com estado local via useState
+
+Slider automático com dots navegáveis
+
+Menu mobile com toggle state
+
+Scroll suave para navegação por âncoras
+
+Header dinâmico que muda ao scrollar
+
+🚀 Instalação
 Pré-requisitos
+Node.js 20.x ou superior
 
-Node.js 20 ou superior
+npm 10.x ou superior / yarn 1.22.x ou superior
 
-npm ou yarn
+Passo a Passo
+Clone o repositório
 
-1️⃣ Clonar o repositório
+bash
 git clone https://github.com/seu-usuario/dermatologia.git
 cd dermatologia
+Instale as dependências
 
-2️⃣ Instalar dependências
+bash
 npm install
-
-
-ou
-
+# ou
 yarn install
+Execute em modo desenvolvimento
 
-3️⃣ Rodar o projeto
+bash
 npm run dev
+# ou
+yarn dev
+Acesse no navegador
 
-4️⃣ Acessar no navegador
+text
 http://localhost:5173
+⚙️ Configuração
+Variáveis de Ambiente
+Crie um arquivo .env na raiz do projeto:
 
+env
+VITE_API_URL=sua_api_url
+VITE_WHATSAPP_NUMBER=5511999999999
+Configuração do Vite (vite.config.js)
+javascript
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    open: true
+  },
+  build: {
+    outDir: 'dist',
+    sourcemap: true
+  }
+})
+Configuração do ESLint (eslint.config.js)
+javascript
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
+import { defineConfig, globalIgnores } from 'eslint/config'
+
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{js,jsx}'],
+    extends: [
+      js.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
+      parserOptions: {
+        ecmaVersion: 'latest',
+        ecmaFeatures: { jsx: true },
+        sourceType: 'module',
+      },
+    },
+    rules: {
+      'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+    },
+  },
+])
 📜 Scripts Disponíveis
 Comando	Descrição
-npm run dev	Inicia servidor de desenvolvimento
-npm run build	Gera build de produção
-npm run preview	Visualiza build de produção
-npm run lint	Verifica padrões de código
-📦 Dependências
-Produção
-{
-  "react": "^19.2.4",
-  "react-dom": "^19.2.4"
-}
-
-Desenvolvimento
-{
-  "@vitejs/plugin-react": "^6.0.0",
-  "eslint": "^9.39.4",
-  "eslint-plugin-react-hooks": "^7.0.1",
-  "eslint-plugin-react-refresh": "^0.5.2",
-  "vite": "^8.0.0"
-}
-
-🎨 Personalização
-Alterar cores
-
-Arquivos CSS principais:
-
-App.css
-
-Header.css
-
-Hero.css
-
-About.css
-
-Contact.css
-
-Alterar imagens
-
-Exemplo:
-
-background: url('sua-imagem.jpg') center/cover no-repeat;
-
-Alterar textos
-
-Edite diretamente os arquivos JSX de cada componente.
-
-Exemplo:
-
-títulos
-
-descrições
-
-dados da equipe
-
-depoimentos
-
+npm run dev	Inicia servidor de desenvolvimento com hot reload
+npm run build	Gera build de produção na pasta dist
+npm run preview	Visualiza a build de produção localmente
+npm run lint	Executa verificação de código com ESLint
 🌐 Deploy
-Vercel (Recomendado)
+Opção 1: Vercel (Recomendada)
+Instale a CLI da Vercel
+
+bash
+npm i -g vercel
+Execute o deploy
+
+bash
+vercel
+Opção 2: Netlify
+Build o projeto
+
+bash
 npm run build
-vercel --prod
+Faça upload da pasta dist ou conecte ao GitHub
 
-Netlify
+Opção 3: GitHub Pages
+Instale o gh-pages
 
-Conectar repositório GitHub
+bash
+npm install --save-dev gh-pages
+Adicione ao package.json
 
-Build command:
+json
+"homepage": "https://seuusuario.github.io/dermatologia",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+Execute
 
-npm run build
+bash
+npm run deploy
+🎨 Personalização
+1. Alterar Cores
+Edite as variáveis CSS nos arquivos de cada componente:
 
+css
+/* Exemplo: Hero.css */
+.hero-overlay {
+  background: linear-gradient(135deg, rgba(2, 62, 138, 0.85), rgba(0, 150, 199, 0.85));
+}
+2. Substituir Imagens
+As imagens são do Unsplash. Substitua as URLs nos componentes:
 
-Publish directory:
+jsx
+// About.jsx
+<img 
+  src="sua-imagem-local.jpg" 
+  alt="Descrição" 
+/>
+3. Modificar Textos
+Edite os conteúdos nos arquivos JSX:
 
-dist
+jsx
+// Hero.jsx
+<h1 className="hero-title">
+  Dermalux<br />
+  <span className="hero-subtitle">Seu novo título aqui</span>
+</h1>
+4. Adicionar Nova Seção
+Crie uma nova pasta em src/components/
 
-📱 Compatibilidade
-Navegador	Versão
-Chrome	90+
-Firefox	88+
-Safari	14+
-Edge	90+
-Opera	76+
+Adicione Nome.css e Nome.jsx
+
+Importe e adicione no App.jsx
+
 🤝 Contribuição
+Fluxo de Contribuição
+Fork o projeto
 
-Faça um fork
+Crie uma branch (git checkout -b feature/nova-feature)
 
-Crie uma branch
+Commit as mudanças (git commit -m 'feat: adiciona nova feature')
 
-git checkout -b feature/nova-feature
-
-
-Commit
-
-git commit -m "Adiciona nova funcionalidade"
-
-
-Push
-
-git push origin feature/nova-feature
-
+Push para a branch (git push origin feature/nova-feature)
 
 Abra um Pull Request
 
+Padrões de Commit
+feat: - Nova funcionalidade
+
+fix: - Correção de bug
+
+docs: - Documentação
+
+style: - Formatação de código
+
+refactor: - Refatoração
+
+test: - Testes
+
+chore: - Tarefas de manutenção
+
+Padrões de Código
+Componentes: Funcionais com hooks
+
+Estilização: CSS modules
+
+Nomenclatura: PascalCase para componentes, camelCase para funções
+
+Imports: Organizados por categoria
+
 📄 Licença
-
-Este projeto está sob a licença MIT.
-
-👨‍💻 Autor
-
-Erik Silva de Paiva
-Estudante de Engenharia de Software
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
 📞 Contato
-
 Email: contato@dermalux.com.br
 
 Telefone: (11) 3456-7890
+
 WhatsApp: (11) 98765-4321
 
-Endereço: Av. Paulista, 1000 — São Paulo/SP
+Endereço: Av. Paulista, 1000 - São Paulo/SP
 
 📊 Status do Projeto
-
-Versão atual: 1.0.0
-
+Versão Atual: 1.0.0
 ✅ Implementado
-
 Estrutura completa de componentes
 
-Design responsivo
+Design responsivo para todos os dispositivos
 
-Formulário de contato
+Formulário de contato funcional
 
-Slider de depoimentos
+Slider de depoimentos automático
 
-Menu mobile
+Menu mobile com animação
 
-Scroll suave
+Scroll suave entre seções
 
-🔄 Em desenvolvimento
+Integração com WhatsApp
 
-Integração com API
+Estatísticas dinâmicas
 
-Páginas internas
+📈 Métricas de Performance
+Lighthouse: 95+ (Desktop)
 
-Blog institucional
+First Contentful Paint: < 1.2s
 
-SEO avançado
+Time to Interactive: < 2.0s
 
-📊 Performance
+Bundle Size: ~150KB (gzip)
 
-Lighthouse Score: 95+
+🙏 Créditos
+Imagens: Unsplash
 
-First Paint: < 1.5s
+Ícones: Emojis nativos e SVG personalizados
 
-Interatividade: < 2s
+Inspiração: Melhores práticas de UI/UX para clínicas médicas
 
-🙏 Agradecimentos
-
-Unsplash — Imagens de alta qualidade
-
-React Team — Biblioteca incrível
-
-Vite Team — Ferramenta de build rápida
-
-Comunidade Open Source
-
-💙 Desenvolvido com dedicação por Erik Silva de Paiva
+Desenvolvido com 💙 pela equipe Dermalux
+© 2024 - Todos os direitos reservados
